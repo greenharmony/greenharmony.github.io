@@ -452,8 +452,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-testimonial {
   padding: 3em 0;
-  background: #7ac143;
+  /*background: #7ac143;*/
+  background-image: url("../images/works/1st/after3.jpg");
+  background-size: cover;
   position: relative;
+  height: 60vh;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
@@ -462,27 +465,19 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .fh5co-testimonial .item {
   color: white;
-  padding-left: 3em;
+  padding-left: 40em;
   padding-right: 3em;
+  padding-top: 10em;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial .item {
     padding-left: 0em;
     padding-right: 0em;
+    position: absolute;
+
   }
 }
-.fh5co-testimonial .item figure {
-  text-align: center;
-}
-.fh5co-testimonial .item figure img {
-  max-width: inherit;
-  width: 90px;
-  margin: 0 auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
+
 .fh5co-testimonial .item p {
   font-size: 30px;
 }
@@ -496,10 +491,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     font-size: 20px;
   }
 }
-.fh5co-testimonial .item .author {
-  font-size: 16px;
-  display: block;
-}
+
 
 .fh5co-counters {
   padding: 1em 0;
